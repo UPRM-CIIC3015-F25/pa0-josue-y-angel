@@ -118,7 +118,7 @@ while True:
     player_movement()
 
     # Visuals
-    light_grey = pygame.Color('grey83')
+    light_grey = pygame.Color('red')
     red = pygame.Color('red')
     screen.fill(bg_color)  # Clear screen with background color
     pygame.draw.rect(screen, light_grey, player)  # Draw player paddle
